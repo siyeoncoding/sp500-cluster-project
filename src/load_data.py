@@ -3,7 +3,7 @@ import pandas as pd
 # 1) CSV 파일 경로 설정
 #    - 지금 프로젝트 구조 기준으로, 실행 위치는 프로젝트 최상단(sp500_cluster_project)
 #    - data 폴더 안에 csv가 있으니, 상대 경로는 "data/파일이름"
-file_path = "data/sp500_2025_h1.csv"
+file_path = "../data/sp500_2025_h1.csv"
 
 # 2) CSV 파일 읽기
 df = pd.read_csv(file_path)
