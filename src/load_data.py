@@ -20,3 +20,4 @@ print(df.columns.tolist())   # 컬럼 이름을 리스트로 출력
 
 print("\n===== 각 컬럼별 데이터 타입(dtypes) =====")
 print(df.dtypes.head(20))    # 앞쪽 20개 컬럼만 타입 확인
+
